@@ -1,0 +1,128 @@
+[2018/08/01 10:03:45] Utils::createSession start new session
+[2018/08/01 10:03:45] dispatch nombre del controlador: Controlador_Login - login
+[2018/08/01 10:07:54] Utils::createSession start new session
+[2018/08/01 10:07:54] dispatch nombre del controlador: Controlador_Login - login
+[2018/08/01 10:15:49] Utils::createSession start new session
+[2018/08/01 10:15:49] dispatch nombre del controlador: Controlador_Login - login
+[2018/08/01 10:18:09] Utils::createSession start new session
+[2018/08/01 10:18:09] dispatch nombre del controlador: Controlador_Login - login
+[2018/08/01 10:18:11] Utils::createSession start new session
+[2018/08/01 10:18:11] dispatch nombre del controlador: Controlador_Inicio - inicio
+[2018/08/01 10:18:11] SQL Query: SELECT id,orden,nombre,imagen,estado FROM mic_banner WHERE estado=1 and tipo=0 order by orden ASC
+[2018/08/01 10:18:11] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas
+[2018/08/01 10:18:11] SQL Query: SELECT COUNT(id_usuario) AS cont FROM mfo_usuario where rol=1 and estado=1
+[2018/08/01 10:18:11] SQL Query: SELECT COUNT(id_usuario) AS cont FROM mfo_usuario where rol=2 and estado=1
+[2018/08/01 10:18:11] SQL Query: SELECT * from mfo_intereses
+[2018/08/01 10:18:11] SQL Query: SELECT nombre, profesion, imagen, descripcion FROM mfo_exitos where estado = 1
+[2018/08/01 10:18:11] SQL Query: SELECT imagen FROM mfo_marcas where estado = 1
+[2018/08/01 10:18:11] SQL Query: select * from mfo_provincias
+[2018/08/01 10:18:11] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%1;%'
+[2018/08/01 10:18:11] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%2;%'
+[2018/08/01 10:18:11] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%3;%'
+[2018/08/01 10:18:11] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%4;%'
+[2018/08/01 10:18:16] Utils::createSession start new session
+[2018/08/01 10:18:16] dispatch nombre del controlador: Controlador_Login - login
+[2018/08/01 10:20:02] Utils::createSession start new session
+[2018/08/01 10:20:02] dispatch nombre del controlador: Controlador_Login - login
+[2018/08/01 10:24:18] Utils::createSession start new session
+[2018/08/01 10:24:18] dispatch nombre del controlador: Controlador_Inicio - inicio
+[2018/08/01 10:24:18] SQL Query: SELECT id,orden,nombre,imagen,estado FROM mic_banner WHERE estado=1 and tipo=0 order by orden ASC
+[2018/08/01 10:24:18] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas
+[2018/08/01 10:24:18] SQL Query: SELECT COUNT(id_usuario) AS cont FROM mfo_usuario where rol=1 and estado=1
+[2018/08/01 10:24:18] SQL Query: SELECT COUNT(id_usuario) AS cont FROM mfo_usuario where rol=2 and estado=1
+[2018/08/01 10:24:18] SQL Query: SELECT * from mfo_intereses
+[2018/08/01 10:24:18] SQL Query: SELECT nombre, profesion, imagen, descripcion FROM mfo_exitos where estado = 1
+[2018/08/01 10:24:18] SQL Query: SELECT imagen FROM mfo_marcas where estado = 1
+[2018/08/01 10:24:18] SQL Query: select * from mfo_provincias
+[2018/08/01 10:24:18] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%1;%'
+[2018/08/01 10:24:18] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%2;%'
+[2018/08/01 10:24:18] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%3;%'
+[2018/08/01 10:24:18] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%4;%'
+[2018/08/01 10:25:42] Utils::createSession start new session
+[2018/08/01 10:25:42] dispatch nombre del controlador: Controlador_Login - login
+[2018/08/02 01:36:08] Utils::createSession start new session
+[2018/08/02 01:36:08] dispatch nombre del controlador: Controlador_Inicio - inicio
+[2018/08/02 01:36:09] SQL Query: SELECT id,orden,nombre,imagen,estado FROM mic_banner WHERE estado=1 and tipo=0 order by orden ASC
+[2018/08/02 01:36:09] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas
+[2018/08/02 01:36:09] SQL Query: SELECT COUNT(id_usuario) AS cont FROM mfo_usuario where rol=1 and estado=1
+[2018/08/02 01:36:09] SQL Query: SELECT COUNT(id_usuario) AS cont FROM mfo_usuario where rol=2 and estado=1
+[2018/08/02 01:36:09] SQL Query: SELECT * from mfo_intereses
+[2018/08/02 01:36:09] SQL Query: SELECT nombre, profesion, imagen, descripcion FROM mfo_exitos where estado = 1
+[2018/08/02 01:36:09] SQL Query: SELECT imagen FROM mfo_marcas where estado = 1
+[2018/08/02 01:36:09] SQL Query: select * from mfo_provincias
+[2018/08/02 01:36:09] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%1;%'
+[2018/08/02 01:36:09] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%2;%'
+[2018/08/02 01:36:09] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%3;%'
+[2018/08/02 01:36:09] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%4;%'
+[2018/08/02 01:37:54] Utils::createSession start new session
+[2018/08/02 01:37:54] dispatch nombre del controlador: Controlador_Login - login
+[2018/08/02 02:47:24] Utils::createSession empezo una nueva sesion
+[2018/08/02 02:47:24] dispatch nombre del controlador: Controlador_Inicio - inicio
+[2018/08/02 02:47:24] SQL Query: SELECT id,orden,nombre,imagen,estado FROM mic_banner WHERE estado=1 and tipo=0 order by orden ASC
+[2018/08/02 02:47:25] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas
+[2018/08/02 02:47:25] SQL Query: SELECT COUNT(id_usuario) AS cont FROM mfo_usuario where rol=1 and estado=1
+[2018/08/02 02:47:25] SQL Query: SELECT COUNT(id_usuario) AS cont FROM mfo_usuario where rol=2 and estado=1
+[2018/08/02 02:47:25] SQL Query: SELECT * from mfo_intereses
+[2018/08/02 02:47:25] SQL Query: SELECT nombre, profesion, imagen, descripcion FROM mfo_exitos where estado = 1
+[2018/08/02 02:47:25] SQL Query: SELECT imagen FROM mfo_marcas where estado = 1
+[2018/08/02 02:47:25] SQL Query: select * from mfo_provincias
+[2018/08/02 02:47:25] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%1;%'
+[2018/08/02 02:47:25] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%2;%'
+[2018/08/02 02:47:25] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%3;%'
+[2018/08/02 02:47:25] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%4;%'
+[2018/08/02 02:47:38] Utils::createSession empezo una nueva sesion
+[2018/08/02 02:47:38] dispatch nombre del controlador: Controlador_Login - login
+[2018/08/02 02:48:23] Utils::createSession empezo una nueva sesion
+[2018/08/02 02:48:23] dispatch nombre del controlador: Controlador_Inicio - inicio
+[2018/08/02 02:48:23] SQL Query: SELECT id,orden,nombre,imagen,estado FROM mic_banner WHERE estado=1 and tipo=0 order by orden ASC
+[2018/08/02 02:48:23] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas
+[2018/08/02 02:48:23] SQL Query: SELECT COUNT(id_usuario) AS cont FROM mfo_usuario where rol=1 and estado=1
+[2018/08/02 02:48:23] SQL Query: SELECT COUNT(id_usuario) AS cont FROM mfo_usuario where rol=2 and estado=1
+[2018/08/02 02:48:23] SQL Query: SELECT * from mfo_intereses
+[2018/08/02 02:48:23] SQL Query: SELECT nombre, profesion, imagen, descripcion FROM mfo_exitos where estado = 1
+[2018/08/02 02:48:23] SQL Query: SELECT imagen FROM mfo_marcas where estado = 1
+[2018/08/02 02:48:23] SQL Query: select * from mfo_provincias
+[2018/08/02 02:48:23] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%1;%'
+[2018/08/02 02:48:23] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%2;%'
+[2018/08/02 02:48:23] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%3;%'
+[2018/08/02 02:48:23] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%4;%'
+[2018/08/02 02:53:48] Utils::createSession empezo una nueva sesion
+[2018/08/02 02:53:48] dispatch nombre del controlador: Controlador_Login - login
+[2018/08/02 03:00:15] Utils::createSession empezo una nueva sesion
+[2018/08/02 03:00:15] dispatch nombre del controlador: Controlador_Inicio - inicio
+[2018/08/02 03:00:15] SQL Query: SELECT id,orden,nombre,imagen,estado FROM mic_banner WHERE estado=1 and tipo=0 order by orden ASC
+[2018/08/02 03:00:15] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas
+[2018/08/02 03:00:15] SQL Query: SELECT COUNT(id_usuario) AS cont FROM mfo_usuario where rol=1 and estado=1
+[2018/08/02 03:00:15] SQL Query: SELECT COUNT(id_usuario) AS cont FROM mfo_usuario where rol=2 and estado=1
+[2018/08/02 03:00:15] SQL Query: SELECT * from mfo_intereses
+[2018/08/02 03:00:15] SQL Query: SELECT nombre, profesion, imagen, descripcion FROM mfo_exitos where estado = 1
+[2018/08/02 03:00:15] SQL Query: SELECT imagen FROM mfo_marcas where estado = 1
+[2018/08/02 03:00:15] SQL Query: select * from mfo_provincias
+[2018/08/02 03:00:15] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%1;%'
+[2018/08/02 03:00:15] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%2;%'
+[2018/08/02 03:00:15] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%3;%'
+[2018/08/02 03:00:15] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%4;%'
+[2018/08/02 03:27:55] Utils::createSession empezo una nueva sesion
+[2018/08/02 03:27:55] dispatch nombre del controlador: Controlador_Login - login
+[2018/08/02 04:22:26] Utils::createSession empezo una nueva sesion
+[2018/08/02 04:22:26] dispatch nombre del controlador: Controlador_Inicio - inicio
+[2018/08/02 04:22:26] SQL Query: SELECT id,orden,nombre,imagen,estado FROM mic_banner WHERE estado=1 and tipo=0 order by orden ASC
+[2018/08/02 04:22:26] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas
+[2018/08/02 04:28:41] Utils::createSession empezo una nueva sesion
+[2018/08/02 04:28:41] dispatch nombre del controlador: Controlador_Inicio - inicio
+[2018/08/02 04:28:41] SQL Query: SELECT id,orden,nombre,imagen,estado FROM mic_banner WHERE estado=1 and tipo=0 order by orden ASC
+[2018/08/02 04:28:41] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas
+[2018/08/02 04:29:14] Utils::createSession empezo una nueva sesion
+[2018/08/02 04:29:14] dispatch nombre del controlador: Controlador_Inicio - inicio
+[2018/08/02 04:29:14] SQL Query: SELECT id,orden,nombre,imagen,estado FROM mic_banner WHERE estado=1 and tipo=0 order by orden ASC
+[2018/08/02 04:29:14] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas
+[2018/08/02 04:29:14] SQL Query: SELECT COUNT(id_usuario) AS cont FROM mfo_usuario where rol=1 and estado=1
+[2018/08/02 04:29:14] SQL Query: SELECT COUNT(id_usuario) AS cont FROM mfo_usuario where rol=2 and estado=1
+[2018/08/02 04:29:14] SQL Query: SELECT * from mfo_intereses
+[2018/08/02 04:29:14] SQL Query: SELECT nombre, profesion, imagen, descripcion FROM mfo_exitos where estado = 1
+[2018/08/02 04:29:14] SQL Query: SELECT imagen FROM mfo_marcas where estado = 1
+[2018/08/02 04:29:14] SQL Query: select * from mfo_provincias
+[2018/08/02 04:29:14] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%1;%'
+[2018/08/02 04:29:14] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%2;%'
+[2018/08/02 04:29:14] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%3;%'
+[2018/08/02 04:29:14] SQL Query: SELECT COUNT(id_ofertas) AS cont FROM mfo_ofertas where intereses like '%4;%'
