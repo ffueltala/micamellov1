@@ -22,18 +22,8 @@ class Modelo_Usuario{
   }
 
   public static function autenticacion($username, $password){
-    //$password = md5($password);
-       
-      
-      $result = $GLOBALS['db']->auto_array("SELECT * FROM mfo_usuario WHERE username = ? AND password = ?",array($username,$password),MySQLDatabase::ASSOC);
-            
-  
-    
-    
-    /*else{
-      self::registerSesion($result['id'],$option,$android_menus);
-      return $result['id']; 
-    }*/ 
+    //$password = md5($password);             
+    return $GLOBALS['db']->auto_array("SELECT * FROM mfo_usuario WHERE username = ? AND password = ? AND estado = 1",array($username,$password)); 
   }
   
 }  

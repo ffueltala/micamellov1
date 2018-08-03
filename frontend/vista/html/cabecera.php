@@ -115,6 +115,7 @@
 //    require "src/instagram/InstagramAPI.php";
     ?>
 
+<?php if( !Modelo_Usuario::estaLogueado() ){?>
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" style="z-index:9999">
   <div class="modal-dialog" role="document">
     <div class="modal-content" style="margin-top: 97px;">
@@ -303,10 +304,7 @@
 <div class="row">
   <div class="text-center">
     <input id="button-save" disabled type="submit" name="btnusu" class="btn btn-primary" value="Crear Cuenta">  
-  </div>
-
-  
-  
+  </div> 
   
 </div>
 <div class="row">
@@ -324,13 +322,7 @@
   </div>
 </div>
 
-
-
- 
-
-
 <!-- modal empresa -->
-
 <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" style="z-index:9999">
   <div class="modal-dialog" role="document">
     <div class="modal-content" style="margin-top: 97px;">
@@ -435,7 +427,7 @@
     </div>
   </div>
 </div>
-
+<?php } ?>
 
 
 
@@ -675,3 +667,4 @@ if( $_POST["btnemp"] ) {
                 </div> 
 
             </nav>
+

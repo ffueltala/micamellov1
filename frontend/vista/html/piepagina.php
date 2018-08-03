@@ -538,10 +538,24 @@ $('.count').each(function () {
     })
 </script>
 
+<!--mensajes de error y exito-->
+<?php if (isset($sess_err_msg) && !empty($sess_err_msg)){?>
+  <div align="center" id="alerta" style="display:" class="alert alert-danger alert-dismissible">
+    <?php echo $sess_err_msg;?>
+  </div>  
+<?php }?>
+
+<?php if (isset($sess_suc_msg) && !empty($sess_suc_msg)){?>
+  <div align="center" id="alerta" style="display:" class="alert alert-success alert-dismissible">
+    <?php echo $sess_suc_msg;?>
+  </div>  
+<?php }?>
+
     </body>
 </html>
 
 <br><br>
+
 <section id="action" class="action bg-primary roomy-40" style="background-color: #03a9f4;">
                 <div class="container">
                     <div class="row">

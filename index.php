@@ -33,6 +33,9 @@ function obtieneControlador($nombre){
     case 'logout':
       return 'Logout';
     break;
+    case 'perfil':
+      return 'Perfil';
+    break;
     default:
       return 'Inicio'; 
     break;
